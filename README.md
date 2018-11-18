@@ -1,0 +1,2 @@
+# triviagame-basic-
+triviagame (simple)
