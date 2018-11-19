@@ -1,0 +1,106 @@
+body {
+  font-family: sans-serif;
+  color: black;
+  background-image: url("http://7-themes.com/data_images/out/26/6857369-video-game-wallpapers.jpg");
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1.title {
+  margin-top: 5rem;
+  font-size: 3rem;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.credits {
+  margin-left: 45%;
+  margin-right: 45%;
+  position: static;
+}
+
+#question {
+  margin: 4.5rem;
+  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+.title,
+#question {
+  text-align: center;
+}
+
+.answer {
+  max-width: 800px;
+  margin: 50px auto;
+  background:rgb(177, 176, 176);
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #838080;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked + p {
+  background: #cf1919;
+  color: #f1f1f1;
+  border-top-right-radius: 5px;
+}
+
+input[type="radio"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  transition: background 0.2s;
+  flex: 1;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
+  border-left: 1px solid #d1e2ff;
+}
+
+.score {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.2rem;
+  font-family: 'Allerta Stencil', sans-serif
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  background: #f50909;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+  font-family: 'Allerta Stencil', sans-serif
+}
+
+#pressplay {
+  display: none;
+}
+
+
+@media (max-width: 480px) {
+  #question {
+    font-size: 1.2rem;
+  }
+}
